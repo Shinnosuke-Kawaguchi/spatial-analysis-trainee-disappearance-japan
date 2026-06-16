@@ -1,0 +1,19 @@
+# Private / sensitive files
+docs/*.docx
+data/geocoding.xlsx
+_private/
+
+# R files
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+*.Rproj
+
+# Office temporary files
+~$*
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
