@@ -1,6 +1,20 @@
 # Private / sensitive files
 docs/*.docx
 data/geocoding.xlsx
+data/raw/
+data/private/
+data/pref_density.xlsx
+data/perfect*.xlsx
+data/book*.xlsx
+data/master*.xlsx
+data/*violation*.xlsx
+data/*violations*.xlsx
+pref_density.xlsx
+perfect*.xlsx
+book*.xlsx
+master*.xlsx
+*violation*.xlsx
+*violations*.xlsx
 _private/
 
 # R files
@@ -9,6 +23,10 @@ _private/
 .Rproj.user/
 renv/library/
 *.Rproj
+
+# Generated analysis outputs
+results/*
+!results/.gitkeep
 
 # Office temporary files
 ~$*
