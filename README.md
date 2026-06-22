@@ -153,18 +153,11 @@ figures/
   W_comparison_japan_citygeo.png
   idfzjcq3pthk2ahpahpqmd.html
 
-results/
-  analysis_tables.rtf
-  regression_results.csv
-  moran_*.csv
-  sdm_*.txt / sdm_*.csv
-  W_*.csv
-
 src/
   final.R                 # 分析を再実行するRスクリプト
 ```
 
-`docs/*.docx` や `data/geocoding.xlsx` など、公開に向かない作業ファイルは公開用の成果物として復元しない前提です。
+`docs/` や `results/` の作業ファイル、`data/geocoding.xlsx` など、公開に向かないファイルや再生成できる出力は公開用の成果物として置かない前提です。
 
 ## 再現方法
 
